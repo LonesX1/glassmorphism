@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+    .butt::after, .butt::before, .butt{
+        width: 250px;
+        height: 400px;
+    }
+    .information{
+        font-size: 12px;
+    }
+    .foto{
+        width: 150px; height: 200px;
+    }
+    .glass-plate{
+        height: 35vh;
+    }
+}
+    @media screen and (max-width: 425px) {
+        .butt::after, .butt::before, .butt{
+            width: 240px;
+            height: 325px;
+        }
+        .information{
+            font-size: 10px;
+        }
+        .foto{
+            width: 120px; height: 180px;
+        }
+        .glass-plate{
+            height: 100vh; width: 27vh;
+            flex-direction: column;
+        }
+        body{
+           justify-content: center;
+        }
+}
