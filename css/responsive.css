@@ -44,3 +44,22 @@
             font-size: 30px;
         }
 }
+@media screen and (max-width: 375px){
+    .butt::after, .butt::before, .butt{
+        width: 230px;
+        height: 260px;
+    }
+    .link-button{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .button-link{
+        font-size: 25px;
+    }
+    .foto:nth-child(2){
+        height: 45%; width: 40%;
+    }
+    .foto{
+        margin-bottom: 10px;
+    }
+}
